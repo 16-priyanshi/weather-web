@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>WEATHER </title>
+  </head>
+
+  <body style="background-image: url(background.jpg); background-size: auto">
+   
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark bg-dark">
+     <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="" width="60" height="auto" class="d-inline-block align-top">
+        WEATHERIN.COM
+      </a>
+     </div>
+    </nav> 
+ 
+    <!-- Details-->
+    <div class="container">
+      <div class="box">
+      <div class="row">
+        <!--input-->
+
+        <div class="col-md-6 col-sm-12"> 
+          <div class="detail">
+          <form>
+            <div class="col-10">
+              <label for="exampleFormControlInput1" class="form-label"><span style="font-size: 30px">Enter City Name </span> </span></label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Type to search ">
+            </div>
+            <div class="col-10">
+             <button type="button" class="button">Search</button> 
+           
+            </div>
+          </form>
+        </div>
+        </div>
+
+      
+        <!--details -1 -->
+       
+        <div class="col-md-6 col-sm-12">
+          <div class="detail1">
+            <div class="name">Place</div>
+            <div class="temp">Temp (°C)</div>
+            <div class="container">
+             <div class="advance">
+              <div class="row">
+                <div class="col-sm">
+                  <div class="description"></div>
+                </div>
+                <div class="col-sm">
+                  Humidity:<div class="humidity"> 0%</div>
+                </div>
+                <div class="col-sm">
+                  Pressure: <div class="pressure"> 0mb</div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      
+
+      </div>
+    </div>
+    </div>
+
+    
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+   
+  </body>
+</html>
